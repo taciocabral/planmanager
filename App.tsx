@@ -6,7 +6,7 @@ import {
   Jost_600SemiBold
 } from '@expo-google-fonts/jost';
 
-import { Welcome } from './src/pages/Welcome';
+import { Confirmation } from './src/pages/Confirmation';
 
 export default function App() {
   const [ fontsLoaded ] = useFonts({
@@ -21,6 +21,6 @@ export default function App() {
   }
 
   return (
-    <Welcome></Welcome>
+    <Confirmation />
   )
 }
