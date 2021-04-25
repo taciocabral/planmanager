@@ -10,7 +10,6 @@ import { Button } from '../components/Button';
 import colors from '../styles/colors';
 import fonts from '../styles/fonts';
 
-
 export function Confirmation() {
     return (
         <SafeAreaView style={styles.container}>
@@ -65,7 +64,7 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         color: colors.heading,
         paddingVertical: 10
-    }, 
+    },
     footer: {
         width: '100%',
         paddingHorizontal: 50,
